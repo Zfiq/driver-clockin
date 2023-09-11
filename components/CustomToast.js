@@ -1,6 +1,6 @@
 import React from 'react';
 import {Modal, StyleSheet, Text, Pressable, View} from 'react-native';
-
+//
 const CustomToast = ({visible, onHide}) => {
   return (
     <View style={styles.centeredView}>

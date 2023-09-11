@@ -3,7 +3,7 @@ import React, {createContext, useContext, useState, useEffect} from 'react';
 import {onValue, ref, push, update, remove} from 'firebase/database';
 import {db} from '../firebase';
 
-// Create the context
+// Create the context.
 const MyContext = createContext();
 const showToastUserCreated = () => {
   Toast.show({
