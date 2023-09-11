@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import Toast from 'react-native-toast-message';
 import React, {useState, useEffect} from 'react';
 import {View, Text, StyleSheet, FlatList, Pressable} from 'react-native';
