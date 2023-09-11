@@ -173,7 +173,7 @@ const DriverApp = ({driverName}) => {
           <View style={styles.buttonsRow}>
             <View style={{height: 50}}>
               <Icon name="user" size={40} color="green" />
-              <Text style={{width: 50, height: 50}}>{driverName}</Text>
+              <Text numberOfLines={1}>{driverName}</Text>
             </View>
             <TouchableOpacity
               style={[
